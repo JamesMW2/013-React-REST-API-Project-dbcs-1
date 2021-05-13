@@ -1,11 +1,16 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
+import Header from './components/Header'
 import './App.css';
 
 function App() {
   return (
-    <main>
-      Hello world!
-    </main>
+    <>
+      <Header title="
+      Star Wars compare-a-planet"/>
+      <main>
+        
+      </main>
+    </>
   );
 }
 
